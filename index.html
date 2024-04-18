@@ -6,7 +6,14 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
+    <!--code to comeback to to make cleaner if possible 
+      <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+      $(function () {
+        $("#includeHtml").load("experience.html");
+      });
+    </script>
+  --></head>
   <body>
     <nav id="desktop-nav">
       <div class="logo">Michael Chang</div>
@@ -76,7 +83,7 @@
       <p class="section__text__p1">Get To Know Me</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
-        <div class="section__pic-container">
+        <div class="section__pic">
           <img
             src="./assets/about-filler.png"
             alt="Profile picture"
@@ -91,8 +98,11 @@
                 alt="experience icon"
                 class="icon"
               />
-              <h3> Experience</h3>
-              <p> 1 year <br> Software Development</p>
+              <h3>Experience</h3>
+              <p>
+                1 year<br />
+                Software Development
+              </p>
             </div>
             <div class="details-container">
               <img
@@ -100,19 +110,168 @@
                 alt="experience icon"
                 class="icon"
               />
-              <h3> Education</h3>
-              <p> B.Sc. Computer Science</p>
+              <h3>Education</h3>
+              <p>B.Sc. Computer Science</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-
+              I earned my Bachelor's degree in Computer Science in 2023. In
+              addition to my academic pursuits, I find joy in rock climbing,
+              building PCs, and embarking on personal projects. With a strong
+              work ethic and dedication to quality, I thrive on creative
+              problem-solving and collaborative teamwork. I am continuously
+              seeking opportunities for growth and am excited about the prospect
+              of making an impact in the field.
             </p>
           </div>
         </div>
       </div>
-      <img src="./assets/arrow.png" alt="Arrow Icon"
-      class="icon arrow" onclick="location.href = './#experience'">
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href = './#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-containers">
+            <h2 class="experience-sub-title">Languages/Frameworks</h2>
+            <div class="article-container">
+              <html>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Html/CSS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Java</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>SQL</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Reactjs/Nodejs</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+              </html>
+            </div>
+          </div>
+          <div class="details-containers">
+            <h2 class="experience-sub-title">Software</h2>
+            <div class="article-container">
+              <html>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Git</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>VScode</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MySQL</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MongoDB</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+              </html>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href = './#projects'"
+      />
     </section>
     <script src="script.js"></script>
   </body>
